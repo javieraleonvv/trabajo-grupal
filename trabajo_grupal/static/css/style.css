@@ -25,8 +25,8 @@ body {
 }
 
 .logo {
-   height: 50px;
-   width: 50px;
+    height: ;
+    width: 100px;
 }
 
 .nav a {
@@ -49,4 +49,64 @@ body {
     border-radius: 6px;
 }
 
+.tarjeta {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px black;
+    flex-direction: column;
+    gap: 25px;
+    width: 400px;
+    height: 400px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    position: relative;
+}
 
+.tarjeta h1 {
+    font-size: 1, 2rem;
+    margin-top: 100px;
+}
+
+.HelloKitty {
+    background-color: white;
+    border: solid 4px  #f532aa;
+    height: 180px;
+    padding: 20px 20px;
+    border-radius: 50%;
+    position: absolute;
+    top: -90px;
+}
+
+.agregar {
+    background-color:#f532aa ;
+    border: none;
+    color: white;
+    font-size: 100%;
+    border-radius: 5px;
+    padding: 20px 20px;
+    cursor: pointer;
+}
+
+.tarjeta p {
+    margin: 0px 25px;
+}
+
+.Nuevo {
+    background-color:#f532aa ;
+    padding: 20px 20px;
+    border-radius: 50%;
+    position: absolute;
+    top: -12px;
+    right: -12px;
+    color: #FFFDFD;
+}
+
+.principal {
+    display: flex;
+    justify-content: center;
+    padding: 125px 60px;
+    gap: 55px;
+}
