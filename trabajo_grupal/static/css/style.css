@@ -16,7 +16,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-
+  
 }
 
 .nav {
@@ -27,7 +27,6 @@ body {
 .logo {
     height: 50px;
     width: 50px;
-    
 }
 
 .nav a {
@@ -36,7 +35,7 @@ body {
     font-size: 18px;
     padding: 8px 12px;
     border-radius: 5px;
-    transition: transform 0.3s ease;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .boton-principal {
@@ -62,7 +61,7 @@ body {
     gap: 25px;
     width: 400px;
     height: 400px;
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    
     position: relative;
 }
 
@@ -73,7 +72,7 @@ body {
 
 .HelloKitty {
     background-color: white;
-    border: solid 4px  #f532aa;
+    border: solid 4px #f532aa;
     height: 180px;
     padding: 20px 20px;
     border-radius: 50%;
@@ -82,7 +81,7 @@ body {
 }
 
 .agregar {
-    background-color:#f532aa ;
+    background-color: #f532aa;
     border: none;
     color: white;
     font-size: 100%;
@@ -96,7 +95,7 @@ body {
 }
 
 .Nuevo {
-    background-color:#f532aa ;
+    background-color: #f532aa;
     padding: 20px 20px;
     border-radius: 50%;
     position: absolute;
