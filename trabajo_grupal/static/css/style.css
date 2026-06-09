@@ -104,10 +104,38 @@ body {
     right: -12px;
     color: #FFFDFD;
 }
-
 .principal {
     display: flex;
     justify-content: center;
     padding: 125px 60px;
     gap: 55px;
+}
+
+.principal-personajes{
+    display: flex;
+    justify-content: center;
+    padding: 120px 50px;
+    gap: 55px;
+}
+.tarjeta-p{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px black;
+    flex-direction: column;
+    gap: 100px;
+    width: 400px;
+    height: 400px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    position: relative; 
+}
+.tarjeta-p {
+
+}
+
+.imagen-dentro {
+    width: 100px;
+    height: 100px;
 }
