@@ -194,10 +194,12 @@ body {
     border-radius: 10px;
     gap: 30px;
     width: 300px;
-    height: 400px;
+    height: 800px;
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    margin-top: 20px;
+    flex: 1;
 
 }
 
@@ -229,6 +231,7 @@ body {
     width: 400px;
     height: 400px;
     position: relative;
+    flex: 3;
 
 }
 
@@ -255,4 +258,18 @@ body {
     border-radius: 5px;
     padding: 20px 20px;
     cursor: pointer;
+}
+.gris {
+    color:rgb(207, 199, 199)
+}
+
+.secundario{
+    display: flex;
+    justify-content: center;
+    padding: 30px 60px;
+    gap: 55px;
+}
+.padre1{
+    display: flex;
+    
 }
