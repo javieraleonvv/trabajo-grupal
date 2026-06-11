@@ -194,7 +194,7 @@ body {
     border-radius: 10px;
     gap: 30px;
     width: 300px;
-    height: 800px;
+    height: 900px;
     align-items: center;
     justify-content: center;
     flex-direction: column;
@@ -228,11 +228,9 @@ body {
     box-shadow: 0 5px 15px black;
     flex-direction: column;
     gap: 25px;
-    width: 400px;
-    height: 400px;
-    position: relative;
-    flex: 3;
-
+    width: 100px;
+    height: 100px;
+    flex: 1;
 }
 
 .tarjeta h1 {
@@ -243,11 +241,13 @@ body {
 .HelloKitty2 {
     background-color: white;
     border: solid 4px #f532aa;
-    height: 180px;
+    height: 150px;
     padding: 20px 20px;
     border-radius: 50%;
     position: absolute;
     top: -90px;
+    flex: 2;
+
 }
 
 .agregar2 {
@@ -271,5 +271,10 @@ body {
 }
 .padre1{
     display: flex;
-    
+    flex-direction: row;
+}
+.colaboraciones {
+    display: flex;
+    flex: 1;
+    fl
 }
