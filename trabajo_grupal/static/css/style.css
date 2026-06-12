@@ -6,13 +6,12 @@
 
 body {
     font-family: Arial, Helvetica, sans-serif;
-    padding: 20px;
 }
 
 .barra-navegacion {
-    background-color: #FFFDFD;
+    background-color: #6466eb;
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.664);
-    padding: 20px 50px;
+    padding: 10px 30px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -21,7 +20,7 @@ body {
 
 .logo {
     height: 200px;
-    width: 50px;
+    width: 30px;
 }
 
 .logo img:hover {
@@ -32,21 +31,28 @@ body {
 
 .nav {
     display: flex;
-    gap: 20px;
+    gap: 35px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;             /* Peso "Black", el más grueso */
+    text-transform: uppercase;    /* Fuerza a que todo esté en mayúsculas */
+    letter-spacing: 0.5px;        /* Ajusta el espacio entre letras */
+    color: #231f20;
 }
 
 .nav a {
     color: rgb(231, 106, 164);
     text-decoration: none;
     font-size: 18px;
-    padding: 8px 12px;
+    padding: 12px 18px;
     border-radius: 5px;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
-    font-family: FrankfurterCom-Regular !important;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    text-transform: uppercase;
 }
 
 .nav a:hover {
-    background-color: #fff;
+    background-color: #f7f5fc;
     color: #5c0e3e;
     transform: scale(1.3);
 }
@@ -62,11 +68,10 @@ body {
     border-radius: 6px;
 }
 
-.boton:hover {
+.boton-principal:hover {
     background-color: #fff;
     color: #5c0e3e;
     transform: scale(1.3);
-    /* .1 añade 10% en tamaño*/
 }
 
 .tarjeta {
@@ -81,7 +86,6 @@ body {
     gap: 25px;
     width: 400px;
     height: 400px;
-
     position: relative;
 }
 
@@ -132,43 +136,6 @@ body {
     gap: 55px;
 }
 
-.principal-personajes {
-    display: flex;
-    justify-content: center;
-    padding: 120px 50px;
-    gap: 55px;
-}
-
-.tarjeta-p {
-    display: flex;
-    text-align: center;
-    justify-content: center;
-    background-color: white;
-    border-radius: 10px;
-    box-shadow: 0 5px 15px black;
-    flex-direction: column;
-    gap: 25px;
-    width: 400px;
-    height: 400px;
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-    position: relative;
-}
-
-.HelloKitty3 {
-    background-color: white;
-    border: solid 4px #f532aa;
-    height: 180px;
-    padding: 20px 20px;
-    border-radius: 50%;
-    position: absolute;
-    top: -90px;
-}
-
-.imagen-dentro {
-    width: 100px;
-    height: 100px;
-}
-
 .tarjetaConVideo {
     display: flex;
     text-align: center;
@@ -194,87 +161,35 @@ body {
     border-radius: 10px;
     gap: 30px;
     width: 300px;
-    height: 900px;
+    height: 400px;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    margin-top: 20px;
+    margin: 20px;
     flex: 1;
 
 }
 
-.texto-video {
+.colaboraciones {
     display: flex;
-    flex-direction: column;
-}
-
-.tarjeta_colaboraciones {
-    background-color: white;
-    border: solid 4px #f532aa;
-    height: 180px;
-    padding: 20px 20px;
-    border-radius: 50%;
-    position: absolute;
-    top: 90px;
-}
-
-.tarjeta_colaboraciones {
-    display: flex;
-    text-align: center;
-    align-items: center;
-    justify-content: center;
-    background-color: white;
-    border-radius: 10px;
-    box-shadow: 0 5px 15px black;
-    flex-direction: column;
+    flex: 1;
+    justify-content: space-between;
     gap: 25px;
-    width: 100px;
-    height: 100px;
-    flex: 1;
-}
-
-.tarjeta h1 {
-    font-size: 1, 2rem;
-    margin-top: 100px;
-}
-
-.HelloKitty2 {
-    background-color: white;
-    border: solid 4px #f532aa;
-    height: 150px;
-    padding: 20px 20px;
-    border-radius: 50%;
-    position: absolute;
-    top: -90px;
-    flex: 2;
+    justify-content: center;
+    margin: 50px;
 
 }
 
-.agregar2 {
-    background-color: #f532aa;
-    border: none;
-    color: white;
-    font-size: 100%;
-    border-radius: 5px;
-    padding: 20px 20px;
-    cursor: pointer;
-}
-.gris {
-    color:rgb(207, 199, 199)
+.padre1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 60px;
 }
 
-.secundario{
+.secundario {
     display: flex;
     justify-content: center;
     padding: 30px 60px;
     gap: 55px;
-}
-.padre1{
-    display: flex;
-    flex-direction: row;
-}
-.colaboraciones {
-    display: flex;
-    flex: 1;
-    fl
 }
